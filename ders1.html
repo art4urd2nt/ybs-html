@@ -1,25 +1,111 @@
-<DOCTYPE html>
+HTML KODLARI:
+
+<!DOCTYPE html>
 <html>
 <head>
-<title>Araç Takip Sistemi</title>
-<meta name= "Description" content= "Bu sayfa Dokuz Eylül Üniversitesi Araç Takip Sistemi Web Sitesidir."/>
-<meta name= "Keywords" content= "Araç, Takip, Sistemi, Dokuz, Eylül,Üniversitesi"/>
-<meta name= "Copyright" content= "2009-2017 Copyright | Dokuz Eylül Üniversitesi"/>
-<meta charset= "UTF-8"/>
+<title>PERSONAL TRAINER</title>	
+<meta name="Description" content="Bu sayfa personal trainer bulma sitesidir."/>
+<meta name="Keywords" content="Spor, Sağlık, Antrenman, Body, Bodybuilding, Yaşam, Kadın, Erkek, Vücut, Yağ, Fizik"
+<meta name="Copyright" content="1997-2017 Copyright | Bülent Erdem OTALI"/>
+<link rel="stylesheet" href="odev1.css"/>
+<meta charset="UTF-8"/>
 </head>
 <body>
-<q>Quote</q>
-<abbr title= "Yönetim Bilişim Sistemleri">YBS</abbr>
-<p>x<sup>2</sup></p>
-<p> Hello &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; World <p>
-<pre> Metnin içerisindeki tüm boşlukları ve satır sonlarının korunmasını sağlar.</pre>
-<i> MERHABA DÜNYA </i>
-<b> HELLO WORLD </b>
-<cite> SELAM </cite>
-<code> N'ABER? </code> <br><br><br> ASDASDASD
-<strong> HELLO WORLD </strong>
-<em> MERHABA DÜNYA </em>
-<h1> H1 BAŞLIĞI <h1>
-</body>
 
+<div id= "container">
+	<div id="ustBanner">
+	<img id="dumbell" src="Images/barbell.jpg"/>
+	</div>
+	<div id="menu"><ul>
+		<li>BİZ KİMİZ?</li> 
+		<li>ANTRENÖRLERİMİZ</li>
+		<li>ONLINE TRAINING</li>
+		<li>BASINDA BİZ</li>
+		<li>BAŞARILARIMIZ</li>
+		</ul>
+	</div>
+	<div id="content1">
+	<img id="erkektakimi" src= "Images/erkektakimi.jpg"/>
+	</div>
+	<div id="content2">
+	<img id="kadintakimi" src= "Images/kadintakimi.jpg"/>
+	</div>
+	</div>
+	<div id="footer">
+	<image id="iletisim" src="Images/support.jpg">
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
 </html>
+  
+  
+  
+  
+  
+  
+  
+  CSS KODLARI:
+  
+  
+  #container{
+	width:960px;
+	height:1600px;
+	margin: 0 auto;
+	background-color:#gray;
+}
+#ustBanner{
+	width:960px;
+	height:250px;
+	margin-left:180px;
+	padding-left:0px;
+}
+#menu{
+	width:960px;
+	height:40px;
+	background-color:gray;
+	margin-top:75px;
+}
+.yazi{
+font-family:Lucida Sans;
+}
+li{
+	display:inline;
+	color:#fff;
+	font-size:18px;
+	margin-top:0;
+	padding-left:15px;
+	padding-top:2px;
+}
+#content{
+	width:960px;
+	height:250px;
+}
+#content1{
+	width:150px;
+	height:150px;
+	float: left;
+	
+}
+#content2{
+	width:120px;
+	height:120px;
+	float: left;
+}
+#support{
+	width:120px;
+	height:120px;
+}
