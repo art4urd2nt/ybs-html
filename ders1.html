@@ -1,5 +1,3 @@
-HTML KODLARI:
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,101 +9,193 @@ HTML KODLARI:
 <meta charset="UTF-8"/>
 </head>
 <body>
+<EMBED src="arkaplanmuzik.mp3" hidden=true AUTOSTART="TRUE" LOOP="TRUE"> <NOEMBED>
 
+<BGSOUND src="arkaplanmuzik.mp3" loop=infinite></NOEMBED></EMBED>
+<body link="#e01818">
+<body background="Images/arkaplan.jpg">
 <div id= "container">
 	<div id="ustBanner">
-	<img id="dumbell" src="Images/barbell.jpg"/>
+	<a href="anasayfa.html"><img id="dumbell" src="Images/barbell.jpg"/></a>
+	<img id="register" src="Images/register.png"/>
+	<img id="signup" src="Images/signin.png"/>
+	
 	</div>
+	
 	<div id="menu"><ul>
-		<li>BİZ KİMİZ?</li> 
-		<li>ANTRENÖRLERİMİZ</li>
-		<li>ONLINE TRAINING</li>
-		<li>BASINDA BİZ</li>
-		<li>BAŞARILARIMIZ</li>
+		<li>|WHO WE ARE?|</li> &nbsp&nbsp&nbsp&nbsp
+		<li>|COACHES|</li>&nbsp&nbsp&nbsp&nbsp
+		<li>|ONLINE TRAINING|</li>&nbsp&nbsp&nbsp&nbsp
+		<li>|OUR SUCCESSES|</li>&nbsp&nbsp&nbsp
+		<li><a href="mailto:info@personaltrainer.com">SEND MAIL TO US</a></li>
 		</ul>
 	</div>
+	
 	<div id="content1">
-	<img id="erkektakimi" src= "Images/erkektakimi.jpg"/>
+		<a href="erkeksitesi.html"><img id="erkektakimi" src= "Images/erkektakimi.jpg"/></a>
 	</div>
 	<div id="content2">
-	<img id="kadintakimi" src= "Images/kadintakimi.jpg"/>
+		<a href="kadinsitesi.html"><img id="kadintakimi" src= "Images/kadintakimi.jpg"/></a>
 	</div>
+	<div id="erkekvideo">
+	<iframe width="470" height="320" src="https://www.youtube.com/embed/6hgBossMfOs" frameborder="0" allowfullscreen></iframe>
 	</div>
+	<div id="kadinvideo"> 
+	<iframe width="470" height="320" src="https://www.youtube.com/embed/-dFv8-EKkoQ" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div id="kalorihesaplama">
+		<a href="gunlukkalori.html"><img id="kalorihesaplama" src="Images/kalorihesaplama.png"/></a>
 	<div id="footer">
-	<image id="iletisim" src="Images/support.jpg">
+	<a href="bizeulasin.html"><image id="iletisim" src="Images/support.jpg"></a>
 	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 </div>
 </html>
-  
-  
-  
-  
-  
-  
-  
-  CSS KODLARI:
-  
-  
-  #container{
-	width:960px;
-	height:1600px;
-	margin: 0 auto;
-	background-color:#gray;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+#container{
+	width:1200px;
+	height:1030px;
 }
 #ustBanner{
-	width:960px;
-	height:250px;
-	margin-left:180px;
-	padding-left:0px;
+	width: 1023px;
+    height: 162px;
+    margin-left: 166px;
+}
+#register{
+    margin-top: -1px;
+    position: absolute;
+    margin-left: 207px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 96px;
+    height: 240px;
+}
+#dumbell{
+	position: absolute;
+    margin-top: -9px;
+    margin-left: 129px;
+    width: 748px;
+    height: 222px;
+    margin-right: 100px;
+}
+#signup{
+    margin-top: -27px;
+    margin-left: 877px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 96px;
+    height: 241px;
+	
 }
 #menu{
-	width:960px;
-	height:40px;
-	background-color:gray;
-	margin-top:75px;
+	width: 940px;
+    height: 40px;
+    background-color: #4c4f4b;
+    margin-top: 50px;
+    margin-left: 200px;
+	padding: left:1px;;
 }
 .yazi{
 font-family:Lucida Sans;
 }
 li{
-	display:inline;
-	color:#fff;
-	font-size:18px;
-	margin-top:0;
-	padding-left:15px;
-	padding-top:2px;
+	display: inline;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Comic Sans MS";
 }
-#content{
-	width:960px;
-	height:250px;
-}
+
 #content1{
-	width:150px;
-	height:150px;
-	float: left;
+	width: 500px;
+    height: 380px;
+}
+#erkektakimi{
+    width: 469px;
+    height: 290px;
+    margin-top: 0px;
+    margin-left: 202px;
+}
+
+#content2{
+	width: 420px;
+    height: 380px;
+    margin-left: 656px;
+    margin-top: -380px;
 	
 }
-#content2{
-	width:120px;
-	height:120px;
-	float: left;
+#kadintakimi{
+    width: 469px;
+    height: 290px;
+    margin-left: 15px;
+
 }
+#erkekvideo{
+	width: 470px;
+    height: 320px;
+	margin-left:200px;
+	float:left;
+	margin-top:-90px;
+}
+#kadinvideo{
+	width: 470px;
+    height: 320px;
+	margin-left:0px;
+	float:left;
+	margin-top:-90px;
+	
+}
+#kalorihesaplama{
+    margin-left: 100px;
+    width: 939px;
+    height: 320px;
+}
+	
 #support{
 	width:120px;
 	height:120px;
+}
+#footer{
+	width: 1050px;
+    height: 38px;
+    margin-top: 200px;
+}
+#iletisim{
+    width: 950px;
+    height: 250px;
+    margin-left: 92px;
+    margin-top: -204px;
 }
